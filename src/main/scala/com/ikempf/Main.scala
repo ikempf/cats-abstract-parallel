@@ -11,6 +11,7 @@ object Main extends IOApp {
   override def run(args: List[String]): IO[ExitCode] =
     tag
       .fetchAB
+      .map(println)
       .as(ExitCode.Success)
 
   def ioParallelExample: IO[(Int, String)] =

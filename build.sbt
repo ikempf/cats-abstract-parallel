@@ -1,7 +1,7 @@
-lazy val `cats-monadic-parallel` = (project in file("."))
+lazy val `cats-abstract-parallel` = (project in file("."))
   .settings(
     organization := "com.ikempf",
-    name := "cats-monadic-parallel",
+    name := "cats-abstract-parallel",
     scalaVersion := "2.12.8",
     scalacOptions += "-Ypartial-unification",
     libraryDependencies ++= List(
